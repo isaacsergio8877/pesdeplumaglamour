@@ -1,0 +1,395 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    overflow-y: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Afacad';
+    font-size: 22px;
+}
+
+.title {
+    flex-direction: column;
+    line-height: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+   
+  }
+
+  .titleh1 h1{
+    color: #DB7093;
+    font-family: 'Bebas Neue', sans-serif;
+ 
+    }
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: auto;
+  
+}
+
+
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #DB7093;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid #DB7093;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #DB7093;
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.mancha img{
+    margin-left: 360px;
+    position: absolute;
+    animation: flutuar 4s ease-in-out infinite;
+    width: 310px;
+    height: auto;
+    margin-top: 120px;
+    border-radius: 15px;
+}
+
+.female img{
+    margin-left: 200px;
+    margin-top: -50px;
+    
+}
+
+article{
+    opacity: 0;
+    transform: translateY(-200px);
+    transition: opacity 10s ease, transform 4s ease;
+    position: relative;
+    overflow: hidden;
+    margin-left: -102px;
+    margin-top: -30px;
+}
+
+article.ativo {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+@keyframes flutuar {
+    0%, 100% {
+      transform: translateY(0); /* No início e no final, a imagem está na posição normal */
+    }
+    50% {
+      transform: translateY(-20px); /* No meio da animação, a imagem flutua para cima */
+    }
+  }
+
+
+article.ativo {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+
+
+aside {
+    opacity: 0;
+    transform: translateY(300px);
+    transition: opacity 10s ease, transform 4s ease;
+    margin-top: 60px;
+}
+
+aside.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+aside p{
+    font-family: 'Afacad';
+    font-size: 22px
+}
+
+h2{
+    font-size: 52px;
+    line-height: 10px;
+    
+}
+
+span{
+    color: #DB7093;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #DB7093;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: rgb(34, 34, 34);
+    height: 8vh;
+  }
+  
+  main {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: none;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+
+
+
+@media screen and (max-width: 565px) {
+
+
+    body{
+        overflow-y: auto;
+        overflow-x : hidden;
+        
+    }
+ul{
+    display: none;
+}
+
+article{
+    margin-top: 200px ;
+    margin-left: -1100px;
+    position: relative;
+    
+}
+
+.female img {
+    max-width: 150%; /* Torna a imagem responsiva */
+    height: auto; /* Mantém a proporção da altura */
+    width: 350px;
+    height: 350px;
+}
+
+.mancha img {
+    max-width: 100%; /* Torna a imagem responsiva */
+    height: auto; /* Mantém a proporção da altura */
+    width: 200px;
+    height: 200px;
+    margin-left: 280px;
+}
+
+aside h2{
+    font-size: 43px;
+}
+
+aside p{
+    max-width: 40%;
+}
+
+    aside  {
+        margin-top: -50px;
+    }
+
+
+
+    
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
+    filter: grayscale(100%); /* Escala de cinza para simular desfoque */
+    display: none;
+    z-index: 9998; /* Um número menor que o z-index do .nav-list para garantir que esteja por trás do menu */
+  }
+  
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: rgb(15, 15, 15);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    display: flex;
+    z-index: 9999;
+    border-radius: 15px;
+    border-color: white;
+  }
+  
+  .mobile-menu.active ~ .background-overlay {
+    display: block;
+  }
+        
+      
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
