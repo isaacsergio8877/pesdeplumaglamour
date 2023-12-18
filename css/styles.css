@@ -431,6 +431,12 @@ line-height: 10px;
 
 @media screen and (max-width: 565px) {
 
+
+  body{
+    overflow-x: hidden;
+  }
+
+  
   a {
     color: #fff;
     text-decoration: none;
