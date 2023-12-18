@@ -384,7 +384,7 @@ aside p{
 }
 
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 369px) {
 
 
   body{
@@ -392,7 +392,7 @@ aside p{
   }
 
   aside h2{
-    font-size: 40px;
+    font-size: 35px;
    
   }
 

@@ -645,6 +645,12 @@ a:hover{
 
 /* Estilos para dispositivos médios (até 767px de largura) */
 @media only screen and (max-width: 767px) {
+
+body{
+  overflow-x: hidden;
+}
+
+
     .produtos li {
         width: 100%; /* Largura total */
         margin: 0 0 20px; /* Espaçamento inferior */
@@ -667,6 +673,11 @@ a:hover{
 
 /* Estilos para dispositivos grandes (768px e acima) */
 @media only screen and (min-width: 768px) {
+
+body{
+  overflow-x: hidden;
+}
+
     .produtos {
         width: 940px; /* Largura original para dispositivos maiores */
     }
