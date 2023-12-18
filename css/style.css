@@ -255,8 +255,7 @@ a {
 
 
     body{
-        overflow-y: auto;
-        overflow-x : hidden;
+        overflow: hidden;
         
     }
 ul{
@@ -273,16 +272,18 @@ article{
 .female img {
     max-width: 150%; /* Torna a imagem responsiva */
     height: auto; /* Mantém a proporção da altura */
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
+    margin-top: -50px;
 }
 
 .mancha img {
     max-width: 100%; /* Torna a imagem responsiva */
     height: auto; /* Mantém a proporção da altura */
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin-left: 280px;
+    margin-top: 20px;
 }
 
 aside h2{
@@ -381,7 +382,7 @@ aside p{
 
 
   body{
-      overflow-y: auto;
+      
       overflow-x : hidden;
       
   }
@@ -390,7 +391,7 @@ ul{
 }
 
 article{
-  margin-top: 200px ;
+  margin-top: 110px ;
   margin-left: -1100px;
   position: relative;
   
@@ -401,6 +402,9 @@ article{
   height: auto; /* Mantém a proporção da altura */
   width: 350px;
   height: 350px;
+  margin-top: -90px;
+  
+  
 }
 
 .mancha img {
@@ -413,6 +417,7 @@ article{
 
 aside h2{
   font-size: 40px;
+  position: relative;
 }
 
 aside p{
@@ -421,6 +426,7 @@ aside p{
 
   aside  {
       margin-top: -50px;
+      position: relative;
   }
 
 
@@ -508,7 +514,7 @@ aside p{
 
 
   body{
-      overflow-y: auto;
+      
       overflow-x : hidden;
       
   }

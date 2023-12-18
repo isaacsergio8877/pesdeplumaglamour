@@ -436,7 +436,7 @@ line-height: 10px;
     overflow-x: hidden;
   }
 
-  
+
   a {
     color: #fff;
     text-decoration: none;
@@ -503,6 +503,10 @@ line-height: 10px;
 
 
   @media screen and (max-width: 760px) {
+
+    body{
+      overflow-x: hidden;
+    }
 
     #inscreva-se-btn{
       display: none;
@@ -584,10 +588,11 @@ margin-top: 15px;
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        display: flex;
+        display: none;
         z-index: 9999;
         border-radius: 15px;
         border-color: white;
+
       }
       
       .mobile-menu.active ~ .background-overlay {

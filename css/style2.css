@@ -486,6 +486,12 @@ a:hover{
           @media screen and (max-width: 760px) {
 
 
+            body{
+              overflow-x: hidden;
+              
+            }
+
+
 .icone-flutuante img{
     display: block; /* Garante que a imagem é tratada como bloco */
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
