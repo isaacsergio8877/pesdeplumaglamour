@@ -386,6 +386,11 @@ aside p{
 
 @media screen and (min-width: 360px) {
 
+
+  body{
+    overflow: hidden;
+  }
+
   aside h2{
     font-size: 40px;
    
