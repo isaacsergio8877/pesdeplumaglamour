@@ -251,6 +251,12 @@ a {
 
 
 
+
+.mobile-menu.active ~ .background-overlay {
+  display: block;
+}
+
+
 @media screen and (max-width: 565px) {
 
 
@@ -378,262 +384,41 @@ aside p{
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 360px) {
 
-
-  body{
-      
-      overflow-x : hidden;
-      
+  aside h2{
+    font-size: 40px;
+   
   }
-ul{
-  display: none;
-}
 
-article{
-  margin-top: 110px ;
-  margin-left: -1100px;
-  position: relative;
-  
-}
+  aside p{
+    font-size: 20px;
 
-.female img {
-  max-width: 150%; /* Torna a imagem responsiva */
-  height: auto; /* Mantém a proporção da altura */
-  width: 350px;
-  height: 350px;
-  margin-top: -90px;
-  
-  
-}
+    position: relative;
+  }
 
-.mancha img {
-  max-width: 100%; /* Torna a imagem responsiva */
-  height: auto; /* Mantém a proporção da altura */
-  width: 200px;
-  height: 200px;
-  margin-left: 280px;
-}
-
-aside h2{
-  font-size: 40px;
-  position: relative;
-}
-
-aside p{
-  max-width: 38%;
-}
-
-  aside  {
-      margin-top: -50px;
-      position: relative;
+  article{
+   left: 70px;
   }
 
 
 
-  
-.background-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
-  filter: grayscale(100%); /* Escala de cinza para simular desfoque */
-  display: none;
-  z-index: 9998; /* Um número menor que o z-index do .nav-list para garantir que esteja por trás do menu */
-}
-
-.nav-list {
-  position: absolute;
-  top: 8vh;
-  right: 0;
-  width: 50vw;
-  height: 92vh;
-  background: rgb(15, 15, 15);
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  transform: translateX(100%);
-  transition: transform 0.3s ease-in;
-  display: flex;
-  z-index: 9999;
-  border-radius: 15px;
-  border-color: white;
-}
-
-.mobile-menu.active ~ .background-overlay {
-  display: block;
-}
-      
-    
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-  }
-  .mobile-menu {
-    display: block;
-  }
-
-
-.nav-list.active {
-  transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-}
-
-
 
 
 }
 
 
 
-@media screen and (max-width: 1194px) {
-
-
-  body{
-      
-      overflow-x : hidden;
-      
-  }
-ul{
-  display: none;
-}
-
-article{
-  margin-top: 200px ;
-  margin-left: -1100px;
-  position: relative;
-  
-}
-
-.female img {
-  max-width: 150%; /* Torna a imagem responsiva */
-  height: auto; /* Mantém a proporção da altura */
-  width: 350px;
-  height: 350px;
-}
-
-.mancha img {
-  max-width: 100%; /* Torna a imagem responsiva */
-  height: auto; /* Mantém a proporção da altura */
-  width: 200px;
-  height: 200px;
-  margin-left: 280px;
-}
-
-aside h2{
-  font-size: 40px;
-}
-
-aside p{
-  max-width: 38%;
-}
-
-  aside  {
-      margin-top: -50px;
-  }
-
-
-
-  
-.background-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
-  filter: grayscale(100%); /* Escala de cinza para simular desfoque */
-  display: none;
-  z-index: 9998; /* Um número menor que o z-index do .nav-list para garantir que esteja por trás do menu */
-}
-
-.nav-list {
-  position: absolute;
-  top: 8vh;
-  right: 0;
-  width: 50vw;
-  height: 92vh;
-  background: rgb(15, 15, 15);
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  transform: translateX(100%);
-  transition: transform 0.3s ease-in;
-  display: flex;
-  z-index: 9999;
-  border-radius: 15px;
-  border-color: white;
-}
-
-.mobile-menu.active ~ .background-overlay {
-  display: block;
-}
-      
-    
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-  }
-  .mobile-menu {
-    display: block;
-  }
-
-
-.nav-list.active {
-  transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-}
 
 
 
 
-}
+
+
+
+
+
+
 
 
 
