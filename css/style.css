@@ -437,6 +437,47 @@ aside p{
 }
 
 
+@media screen and (max-width: 369px) {
+
+
+  body{
+    overflow: hidden;
+  }
+
+  aside h2{
+    font-size: 35px;
+   
+  }
+
+  aside p{
+    font-size: 18px;
+
+    position: relative;
+  }
+
+  article{
+   left: 205px;
+   margin-top: 20px;
+   
+  }
+
+  .mancha , .female img{
+    width: 40%;
+    height: 30%;
+  }
+
+  .mancha img{
+    margin-top: 190px;
+    left: -20px;
+  }
+
+
+
+
+
+}
+
+
 
 
 

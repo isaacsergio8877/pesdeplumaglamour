@@ -801,6 +801,10 @@ margin-top: 15px;
   }
 
 
+  .button{
+    width: 50px;
+  }
+
 }
 
 
@@ -809,7 +813,23 @@ margin-top: 15px;
 
 
 
+@media screen and (max-width: 357px) {
 
+  .mobile-menu {
+    display: block;
+    margin-left: 280px;
+    margin-top: -70px;
+    
+  }
+
+
+  #title{
+    margin-left: -120px;
+  }
+
+
+ 
+}
 
 
 
