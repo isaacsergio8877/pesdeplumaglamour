@@ -694,6 +694,24 @@ body{
 
 
 
+@media screen and (max-width: 350px) {
+
+
+
+.mobile-menu {
+                  display: block;
+                  margin-left: 250px;
+                  margin-top: -70px;
+                  
+                }
+
+
+
+
+
+
+}
+
 
 
 

@@ -406,6 +406,30 @@ aside p{
    left: 70px;
   }
 
+}
+
+  @media screen and (max-width: 369px) {
+
+
+    body{
+      overflow: hidden;
+    }
+  
+    aside h2{
+      font-size: 35px;
+     
+    }
+  
+    aside p{
+      font-size: 20px;
+  
+      position: relative;
+    }
+  
+    article{
+     left: 65px;
+    }
+
 
 
 
