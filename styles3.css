@@ -293,6 +293,7 @@ ul li a:hover {
         background-size: cover; /* Cubra toda a área do elemento com a imagem */
         background-position: center; /* Centralize a imagem no elemento */
         background-repeat: no-repeat; /* Evite a repetição da imagem */
+        overflow: hidden;
     }
 
     .main{
@@ -392,4 +393,15 @@ ul li a:hover {
         }
     
     
+}
+
+
+@media screen and (max-width: 800px){
+    .main{
+        width: 100%; /* 50% da largura do viewport (janela do navegador) */
+    height: 2800px;
+    margin: auto;
+    }
+
+
 }
