@@ -416,6 +416,10 @@ textarea {
   
   }
 
+  video{
+    width: 33%;
+  }
+
 
   #footer-banner {
     background-color: #000;

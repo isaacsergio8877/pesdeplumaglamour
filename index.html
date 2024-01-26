@@ -1,186 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-   
-    <link href='https://fonts.googleapis.com/css?family=Afacad' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700&display=swap">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Afacad&family=Anton&family=Bebas+Neue&family=Open+Sans:wght@600&family=Oswald:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Afacad&family=Anton&family=Bebas+Neue&family=Open+Sans:wght@600&family=Oswald:wght@500&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="img/verinha1-removebg-preview-_1_.ico" type="image/x-icon">
-    <title>Pés de Pluma</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-        
-    <header>
-        <div id="title">
-            <h1>Pés De Pluma</h1>
-        <div class="titleh1">
-            <h1>Glamour</h1> </div> 
-        </div>
 
-        <ul>
-            <a href="index.html"><li>Início</li></a>
-            <a href="servico.html"><li>Serviços</li></a>
-            <a href="agenda.html"><li>Agendamentos</li></a>
-            <a href="https://api.whatsapp.com/send?phone=5585987064008&text=Ol%C3%A1,%20*PÉS%20DE%20PLUMA!*%20Tenho%20interesse%20em%20visitar%20seu%20spa! 💕"><li>Contato</li></a>
-            <a href="https://api.whatsapp.com/send?phone=5585987064008&text=Ol%C3%A1,%20*PÉS%20DE%20PLUMA!*%20Tenho%20interesse%20em%20visitar%20seu%20spa! 💕" id="inscreva-se-btn"><li>Fale Conosco!</li></a>
-        </ul>
-
-
-        <nav>
-            <div class="menu-icon"></div>
-  <div class="background-overlay"></div>
-  <div class="content">
-            <a class="logo" href="/"></a>
-            <div class="mobile-menu">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">PesDePluma</h2>
+                <div class="titleh1"><h1>Glamour</h1> </div>
             </div>
-            <ul class="nav-list">
-              <li><a href="index.html">Início</a></li>
-              <li><a href="servico.html">Serviço</a></li>
-              <li><a href="agenda.html">Agendamento</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
 
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>                   
+                    <li><a href="servico.html">SERVICOS</a></li>
+                    <li><a href="cliente.html">CLIENTE</a></li>
+                    <li><a href="agenda.html">AGENDAMENTO</a></li>
+                </ul>
+            </div>
 
-    </header>
-
-    <main>
-        <aside>
-            <h2><span>Vera Santos</span></h2>
-            <h2>Cuidando de você sempre</h2>
-            <p>
-                Experimente o luxo da Esteticista Dos Pés que vai além da estética - é um carinho merecido para seus pés!
-            </p>
-            
-        </aside>
-
-        <article>
-            <div class="mancha">
-            <img src="img/istock-pedicure-removebg.png" alt="">
+            <div class="buttonn">
+            <button id="btnn">Fale Conosco</button>
         </div>
-        <div class="female">
-            <img src="img/Design_sem_nome__17_-removebg-preview.png" alt="">
-            
 
             
-        </div>
-        </article>
-    </main>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-    const aside = document.querySelector('aside');
 
-    function checkVisibility() {
-        const posicao = aside.getBoundingClientRect().top;
-        const alturaTela = window.innerHeight;
+        </div> 
+        <div class="content">
+            <h1>Vera Santos<br><span>Esteticista de Pés</span> <br>Você merece cuidar de cada detalhe!</h1>
+            <p class="par">cuidados com os pés, proporcionando tratamentos personalizados para suas necessidades específicas </p>
 
-        if (posicao < alturaTela * 1.75) {
-            aside.classList.add('ativo');
-        }
-    }
-
-    window.addEventListener('scroll', checkVisibility);
-    window.addEventListener('resize', checkVisibility);
-
-    checkVisibility();
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-    const aside = document.querySelector('article');
-
-    function checkVisibility() {
-        const posicao = aside.getBoundingClientRect().top;
-        const alturaTela = window.innerHeight;
-
-        if (posicao < alturaTela * 0.75) {
-            aside.classList.add('ativo');
-        }
-    }
-
-    window.addEventListener('scroll', checkVisibility);
-    window.addEventListener('resize', checkVisibility);
+                <button class="cn"><a href="#">AGENDAR</a></button>
 
 
-    checkVisibility();
-});
-
-
-class MobileNavbar {
-  constructor(mobileMenu, navList, navLinks) {
-    this.mobileMenu = document.querySelector(mobileMenu);
-    this.navList = document.querySelector(navList);
-    this.navLinks = document.querySelectorAll(navLinks);
-    this.activeClass = "active";
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  animateLinks() {
-    this.navLinks.forEach((link, index) => {
-      link.style.animation
-        ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-            index / 7 + 0.3
-          }s`);
-    });
-  }
-
-  handleClick() {
-    this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
-  }
-
-  addClickEvent() {
-    this.mobileMenu.addEventListener("click", this.handleClick);
-  }
-
-  init() {
-    if (this.mobileMenu) {
-      this.addClickEvent();
-    }
-    return this;
-  }
-}
-
-const mobileNavbar = new MobileNavbar(
-  ".mobile-menu",
-  ".nav-list",
-  ".nav-list li",
-);
-mobileNavbar.init();
-
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  const menuIcon = document.querySelector('.menu-icon');
-  const backgroundOverlay = document.querySelector('.background-overlay');
-  const navList = document.querySelector('.nav-list');
-
-  menuIcon.addEventListener('click', function () {
-    navList.classList.toggle('active');
-    backgroundOverlay.classList.toggle('active');
-  });
-});
-
-
-
-    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
